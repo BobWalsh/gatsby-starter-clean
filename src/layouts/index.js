@@ -27,7 +27,7 @@ const Header = () => (
             textDecoration: 'none',
           }}
         >
-          Gatsby
+          VS Code Mac, an opinionated Guide.
         </Link>
       </h1>
     </div>
