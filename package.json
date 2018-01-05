@@ -8,8 +8,15 @@
     "gatsby-link": "^1.6.32",
     "gatsby-plugin-react-helmet": "^1.0.8",
     "gatsby-plugin-sass": "^1.0.15",
+    "gatsby-plugin-typography": "^1.7.10",
     "gatsby-source-filesystem": "^1.5.11",
-    "gatsby-transformer-remark": "^1.7.26"
+    "gatsby-transformer-remark": "^1.7.26",
+    "typography": "^0.16.6",
+    "typography-theme-bootstrap": "^0.16.7",
+    "typography-theme-de-young": "^0.16.9",
+    "typography-theme-judah": "^0.15.10",
+    "typography-theme-lawton": "^0.15.10",
+    "typography-theme-moraga": "^0.15.10"
   },
   "keywords": [
     "gatsby"
