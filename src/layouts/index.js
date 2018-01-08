@@ -3,12 +3,13 @@ import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 
-import './index.scss'
+// import './index.scss'
+// has css that is overriding typography.js 
 
 const Header = () => (
   <div
     style={{
-      background: 'rebeccapurple',
+      background: '#0077CF',
       marginBottom: '1.45rem',
     }}
   >
