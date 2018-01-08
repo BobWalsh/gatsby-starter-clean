@@ -9,7 +9,7 @@ import Helmet from 'react-helmet'
 const Header = () => (
   <div
     style={{
-      background: 'rebeccapurple',
+      background: '#0077CF',
       marginBottom: '1.45rem',
     }}
   >
