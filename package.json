@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "author": "Bob Walsh <bob.walsh@47hats.com>",
   "dependencies": {
+    "bootstrap": "^4.0.0-beta.3",
     "gatsby": "^1.9.149",
     "gatsby-link": "^1.6.32",
     "gatsby-plugin-react-helmet": "^1.0.8",
