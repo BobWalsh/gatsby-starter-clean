@@ -5,6 +5,9 @@ import Typography from "typography";
 // or
 // import judahTheme from 'typography-theme-judah'
 // const typography = new Typography(judahTheme)
+//  like this one:
+// import moragaTheme from 'typography-theme-moraga'
+// const typography = new Typography(moragaTheme)
 
 // current theme:
 import moragaTheme from 'typography-theme-moraga'
