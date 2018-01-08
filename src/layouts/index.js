@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container } from 'reactstrap'
+import { Container, Card, CardText, CardBody, CardTitle, CardSubtitle } from 'reactstrap'
 import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
@@ -25,10 +25,14 @@ const TemplateWrapper = ({ children, data }) => {
                 <a href='/admin' className='nav-link'>Admin</a>
               </li>
             )}
-
             <li className='nav-item'>
-              <Link to='/about' className='nav-link'>About</Link>
+              <Link to="/page-2/" className='nav-link'>Go to page 2</Link>
             </li>
+            <li className='nav-item'>
+              <Link to='/about' className='nav-link'>About1</Link>
+            </li>
+            
+            
           </ul>
         </Container>
       </div>
