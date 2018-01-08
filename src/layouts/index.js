@@ -6,7 +6,7 @@ import Helmet from 'react-helmet'
 
 // has css that is overriding typography.js 
 import './index.scss'
-
+import './sitetheme.scss'
 const TemplateWrapper = ({ children, data }) => {
   let user
   if (typeof window !== 'undefined') {
