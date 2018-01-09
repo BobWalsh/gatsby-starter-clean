@@ -6,7 +6,7 @@ const IndexPage = ({data}) => (
   <div>
     <Container>
     <div style={{ margin: '3rem auto', maxWidth: 600 }}>
-    <h1>pages for the static pages, then have another index file for the blog posts</h1>
+    <h1>The pages for the static pages, then have another index file for the blog posts</h1>
     <p>for other index, pull from pages/index.js: </p>
     <p>Posted April 09, 2011</p>
   </div>
