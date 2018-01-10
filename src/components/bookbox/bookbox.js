@@ -1,10 +1,10 @@
 import React from "react";
-import bookart from "./printing-press.png"; // Tell Webpack this JS file uses this image
+import bookart from "./bookcover-placeholder.jpg"; 
 import Link from 'gatsby-link'
 
 
 
-console.log(bookart); // /bookart.84287d09.png
+console.log(bookart); // /./bookcover-placeholder.jpg
 
 class Bookbox extends React.Component {
   constructor() {
@@ -25,10 +25,5 @@ class Bookbox extends React.Component {
     )
   }
 }
-
-// function Bookbox() {
-//   // Import result is the URL of your image
-//   return <img src={bookart} alt="bookart" />;
-// }
 
 export default Bookbox

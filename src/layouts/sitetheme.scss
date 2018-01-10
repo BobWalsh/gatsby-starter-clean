@@ -109,6 +109,12 @@ $close-text-shadow:                 none !default;
 
 
 // custom scss for this site.
-.stickyfooter a {
-  font-size: 0.8rem;
+.stickyfooter {
+  padding-top: 0;
+  padding-bottom: 0;
+   p {
+    padding-top: .35rem;
+    padding-bottom: 0;
+    font-size: 0.8rem;
+   }
 }

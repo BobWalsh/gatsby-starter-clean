@@ -15,6 +15,9 @@ import {
 import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
+
+
+import Footer from "../components/footer/footer";
 // has css that is overriding typography.js 
 import './index.scss'
 import './sitetheme.scss'
@@ -55,11 +58,7 @@ const TemplateWrapper = ({ children, data }) => {
           </ul>
         </Container>
         </Navbar>
-        <nav className="stickyfooter navbar fixed-bottom navbar-light bg-light">
-          <a className="navbar-brand" href="#">VSCodeMac is not part of Microsoft.</a>
-          <a className="navbar-brand" href="#">&copy; 2018 47hats. All rights reserved.</a>
-
-        </nav>
+        <Footer/>
       <div className='pageContent'>{children()}</div>
     </div>
   )
