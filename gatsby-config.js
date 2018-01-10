@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `VS Code Mac Site`,
+    title: `VSCodeMac`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

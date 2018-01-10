@@ -3,7 +3,6 @@ import footerart1 from "./47hats-blackred-logo.png";
 import Link from 'gatsby-link'
 
 
-
 console.log(footerart1); // /./bookcover-placeholder.jpg
 
 class Footer extends React.Component {
