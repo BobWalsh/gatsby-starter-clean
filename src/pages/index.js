@@ -2,16 +2,22 @@ import React from 'react'
 import { Container, Card, CardText, CardBody, CardTitle, CardSubtitle } from 'reactstrap'
 import Link from 'gatsby-link'
 
+import Bookbox from "../components/bookbox/bookbox";
+
 const IndexPage = ({data}) => (
   <div>
     <Container>
-    <div className="row">
-    <div className="col-sm-9">
-      main area
-    </div>
-    <div className="col-sm-3">
-      sidebar area
-    </div>
+      <div className="row">
+      <div className="col-sm-9">
+        main area
+      </div>
+      <div className="col-sm-3">
+        <div className="card" >
+          <Bookbox/>
+          
+        </div>
+      </div>
+
   </div>
   
     <h2>Index</h2>

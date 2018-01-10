@@ -55,7 +55,11 @@ const TemplateWrapper = ({ children, data }) => {
           </ul>
         </Container>
         </Navbar>
+        <nav className="stickyfooter navbar fixed-bottom navbar-light bg-light">
+          <a className="navbar-brand" href="#">VSCodeMac is not part of Microsoft.</a>
+          <a className="navbar-brand" href="#">&copy; 2018 47hats. All rights reserved.</a>
 
+        </nav>
       <div className='pageContent'>{children()}</div>
     </div>
   )
