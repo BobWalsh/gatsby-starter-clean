@@ -5,24 +5,27 @@ import Link from 'gatsby-link'
 const IndexPage = ({data}) => (
   <div>
     <Container>
-    <div style={{ margin: '3rem auto', maxWidth: 600 }}>
-    <h1>The pages for the static pages, then have another index file for the blog posts</h1>
-    <p>for other index, pull from pages/index.js: </p>
-    <p>Posted April 09, 2011</p>
+    <div className="row">
+    <div className="col-sm-9">
+      main area
+    </div>
+    <div className="col-sm-3">
+      sidebar area
+    </div>
   </div>
   
-  <h2>Index</h2>
-  <ul>
-    {data.allMarkdownRemark.edges.map(post => (
-      <li key={post.node.id}>
-        <Link
-          key={post.node.id} 
-          to={post.node.frontmatter.path}>
-          {post.node.frontmatter.title}
-        </Link>
-      </li>
-    ))}
-    </ul>
+    <h2>Index</h2>
+    <ul>
+      {data.allMarkdownRemark.edges.map(post => (
+        <li key={post.node.id}>
+          <Link
+            key={post.node.id} 
+            to={post.node.frontmatter.path}>
+            {post.node.frontmatter.title}
+          </Link>
+        </li>
+      ))}
+      </ul>
     </Container>
   </div>
 )
