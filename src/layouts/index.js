@@ -39,17 +39,16 @@ const TemplateWrapper = ({ children, data }) => {
           <Link to='/' className='navbar-brand'>{data.site.siteMetadata.title}</Link>
           <ul className='nav navbar-nav'>
             <li className='nav-item'>
-              <Link to="/page-2/" className='nav-link'>Guides</Link>
+              <Link to="guides/guidesindex" className='nav-link'>Guides</Link>
             </li>
-
             <li className='nav-item'>
-              <Link to="/page-2/" className='nav-link'>Resources</Link>
+              <Link to="resources/resources/" className='nav-link'>Resources</Link>
             </li>
             <li className='nav-item'>
               <Link to="/page-2/" className='nav-link'>Blog</Link>
             </li>
             <li className='nav-item'>
-              <Link to="/page-2/" className='nav-link'>The Book</Link>
+              <Link to="thebook/thebook/" className='nav-link'>The Book</Link>
             </li>
             <li className='nav-item'>
               <Link to='/about' className='nav-link'>About</Link>

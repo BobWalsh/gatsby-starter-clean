@@ -10,6 +10,9 @@ const IndexPage = ({data}) => (
       <div className="row">
       <div className="col-sm-9">
         main area
+        
+
+
       </div>
       <div className="col-sm-3">
         <div className="card" >
