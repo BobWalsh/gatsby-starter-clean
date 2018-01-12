@@ -1,22 +1,24 @@
 import React from 'react'
+import { Button } from 'reactstrap'
 
 class Mailsignup extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-        emailValue: '',
-        fNameValue: '',
-        lNameValue: '',
+        emailValue: ''
     };
   }
 
     render() {
         return (
+          <div className="card" >
+            <div className="card-body">
                 <form action="https://47hats.us2.list-manage.com/subscribe/post" method="POST" noValidate>
                   <input type="hidden" name="u" value="431a23cdea6dbb161fd913873"/>
                 <input type="hidden" name="id" value="28d4bffa4c"/>
+                <div id="subscribeFormWelcome">Get fresh VS Code Mac news, tips, resources, plugin reviews, and more:</div>  
                 <label htmlFor='MERGE0'>
-                    Email
+                    Email:
                     <input 
                         type="email" 
                         name="EMAIL" 
@@ -27,39 +29,19 @@ class Mailsignup extends React.Component {
                         autoCorrect="off"
                      /> 
                 </label>
-                <label htmlFor='MERGE1'>
-                    First name
-                    <input 
-                        type="text" 
-                        name="FNAME" 
-                        id="MERGE1" 
-                        value={this.state.fNameValue} 
-                        onChange={(e)=>{this.setState({fNameValue: e.target.value});}}
-                    />
-                </label>
-                <label htmlFor='MERGE2'>
-                    Last name
-                    <input 
-                        type="text" 
-                        name="LNAME" 
-                        id="MERGE2" 
-                        value={this.state.lNameValue} 
-                        onChange={(e)=>{this.setState({lNameValue: e.target.value});}}
-                    />
-                </label>
-                  <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" className="button"/>
+                <div className="field-help smalltype">We never rent, sell or otherwise share email addresses</div>
+                
+                  <input type="submit"  value="Subscribe" name="subscribe" id="mc-embedded-subscribe" className="btn btn-primary"/>
 
                 <div style={{position: 'absolute', left: '-5000px'}} aria-hidden='true' aria-label="Please leave the following three fields empty">
-                    <label htmlFor="b_name">Name: </label>
-                    <input type="text" name="b_name" tabIndex="-1" value="" placeholder="Freddie" id="b_name"/>
-
+                    
                     <label htmlFor="b_email">Email: </label>
                     <input type="email" name="b_email" tabIndex="-1" value="" placeholder="youremail@gmail.com" id="b_email"/>
 
-                    <label htmlFor="b_comment">Comment: </label>
-                    <textarea name="b_comment" tabIndex="-1" placeholder="Please comment" id="b_comment"></textarea>
                 </div>
               </form>
+            </div>
+          </div>
         )
     }
 }

@@ -9,17 +9,17 @@ const IndexPage = ({data}) => (
   <div>
     <Container>
       <div className="row">
-      <div className="col-sm-9">
+      <div className="col-sm-8">
         main area
-        <Mailsignup/>
-
-
-      </div>
-      <div className="col-sm-3">
-        <div className="card" >
-          <Bookbox/>
-          
+        
+        
         </div>
+        <div className="col-sm-4">
+        
+          <Bookbox/>
+          <Mailsignup/>
+          
+        
       </div>
 
   </div>
