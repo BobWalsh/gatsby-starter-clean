@@ -3,6 +3,7 @@ import { Container, Card, CardText, CardBody, CardTitle, CardSubtitle } from 're
 import Link from 'gatsby-link'
 
 import Bookbox from "../components/bookbox/bookbox";
+import Mailsignup from "../components/mailsignup/mailsignup";
 
 const IndexPage = ({data}) => (
   <div>
@@ -10,7 +11,7 @@ const IndexPage = ({data}) => (
       <div className="row">
       <div className="col-sm-9">
         main area
-        
+        <Mailsignup/>
 
 
       </div>
