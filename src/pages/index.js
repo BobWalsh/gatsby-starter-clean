@@ -11,15 +11,10 @@ const IndexPage = ({data}) => (
       <div className="row">
       <div className="col-sm-8">
         main area
-        
-        
         </div>
         <div className="col-sm-4">
-        
           <Bookbox/>
           <Mailsignup/>
-          
-        
       </div>
 
   </div>
